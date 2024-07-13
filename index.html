@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Birthday Card</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.21/vanta.birds.min.js"></script>
+  </head>
+  <body>
+    <div id="vanta-bg"></div>
+    <div class="card">
+      <img src="turtle.webp" width="200" height="200" />
+      <h1>Happy Birthday!</h1>
+      <p>Wishing you a day filled with love and joy.</p>
+      <button class="modal-button" data-modal="modal1">Tatiana</button>
+      <button class="modal-button" data-modal="modal2">Dilenia</button>
+      <button class="modal-button" data-modal="modal3">Carolina</button>
+      <button class="modal-button" data-modal="modal4">Dahian</button>
+      <button class="modal-button" data-modal="modal5">
+        Michelle & Roberto
+      </button>
+      <button class="modal-button" data-modal="modal6">Lizbeth & Yachie</button>
+      <button class="modal-button" data-modal="modal7">Lilly & Julio</button>
+    </div>
+
+    <!-- Modals -->
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <span class="close" data-modal="modal1">&times;</span><br />
+        <img
+          src="https://i.pinimg.com/originals/a3/f1/86/a3f186387eb5237d79bd9b520c681ada.gif"
+          alt=""
+          width="100"
+          height="100"
+        />
+        <p>
+          Каринушка моя любимая. Поздравляю с днем рождения. Желаю побыстрее
+          получить визу и уехать к Роберту. Люблю тебя . <br />
+          <br /><br />
+          Мама.
+        </p>
+      </div>
+    </div>
+    <div id="modal2" class="modal">
+      <div class="modal-content">
+        <span class="close" data-modal="modal2">&times;</span>
+        <div class="blur-border">
+          <img
+            src="dilenia.png"
+            alt="Animated GIF"
+            width="100"
+            height="100"
+            class="blur"
+          />
+        </div>
+        <p>
+          Mi fushi, hemos vivido los mejores y peores momentos juntas. <br />La
+          vida nos hizo amigas pero el paso del tiempo nos convirtió en
+          hermanas. <br /><br />
+          Gracias por estar siempre para nosotras, así mismo estaremos siempre
+          para ti ,para ustedes. Hasta que pongamos nuestras cajas de dientes y
+          recordemos todo lo que hemos vivido a través de los años.
+          <br />
+          <br />Te quiero❤️<br /><span>Dilenia</span>
+        </p>
+      </div>
+    </div>
+    <div id="modal3" class="modal">
+      <div class="modal-content">
+        <span class="close" data-modal="modal3">&times;</span>
+        <div class="blur-border">
+          <img
+            src="carolina.jpeg"
+            alt="Animated GIF"
+            width="100"
+            height="100"
+            class="blur"
+          />
+        </div>
+        <p>
+          ¡Feliz cumpleaños Karina! <br /><br />Querida amiga en este día tan
+          especial, te deseo salud en abundancia y felicidad. Que cada día te
+          sientas llena de energía, vitalidad y alegría. <br /><br />Que tu
+          cuerpo sea más fuerte y resistente, y tu mente esté serena y en paz.
+          <br /><br />Eres una persona increíble, de buen corazón e indefinible
+          vocación de servicio (principalmente en los momentos difíciles) con
+          una fuerza admirable. Te deseo todo lo mejor en la vida y que se
+          cumplan los deseos de tu corazón. <br /><br />Que puedas disfrutar de
+          la compañía de tus seres queridos, aún en la distancia
+          <br /><br />¡Renovados éxitos! <br />¡Un fuerte abrazo!<br /><br />
+          Carolina Guerrero
+        </p>
+      </div>
+    </div>
+
+    <div id="modal4" class="modal">
+      <div class="modal-content">
+        <span class="close" data-modal="modal4">&times;</span>
+        <img
+          src="https://media1.tenor.com/m/2FNvvwvZWPUAAAAC/happy30th-birthday.gif"
+          alt=""
+          width="100"
+          height="100"
+        />
+        <p>I hope you have a wonderful birthday<br /><br />Love. Dahian</p>
+      </div>
+    </div>
+
+    <div id="modal5" class="modal">
+      <div class="modal-content">
+        <span class="close" data-modal="modal5">&times;</span>
+        <div class="blur-border">
+          <img
+            src="https://c.tenor.com/EqiNKFuIa1gAAAAd/tenor.gif"
+            alt="Animated GIF"
+            width="100"
+            height="100"
+            class="blur"
+          />
+        </div>
+        <p>
+          Wishing you a birthday, that's just as extraordinary as you are!
+          <br />See you soon!!!<br /><br />
+          Love, Michelle & Roberto
+        </p>
+      </div>
+    </div>
+
+    <div id="modal6" class="modal">
+      <div class="modal-content">
+        <span class="close" data-modal="modal6">&times;</span>
+        <br />
+        <div class="blur-border">
+          <img
+            src="https://media1.tenor.com/m/ioIItw-T2PMAAAAC/ilyakazakov-cake.gif"
+            alt="Animated GIF"
+            width="100"
+            height="100"
+            class="blur"
+          />
+        </div>
+        <p>
+          Karin Happy Birthday!! <br /><br />
+          We are so happy to have you in this family and cannot wait to see you
+          again and share more birthdays with you. <br /><br />
+          We hope you have a great day! And get to do things you love .
+          <br /><br />
+          Love from Liz and Yachie
+        </p>
+      </div>
+    </div>
+
+    <div id="modal7" class="modal">
+      <div class="modal-content">
+        <span class="close" data-modal="modal7">&times;</span>
+        <img
+          src="https://media.tenor.com/bh9MAiCpL6wAAAAi/birthday-cake.gif"
+          width="100"
+          height="100"
+        />
+        <br />
+        <p>
+          Feliz cumpleaños Karina que Dios derrame bendiciones , salud sabiduría
+          y amor sobre todos muchos años de vida te deceamos<br />Julio y
+          Alejandrina.
+        </p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
